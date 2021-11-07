@@ -32,6 +32,8 @@ def popByValue(dict):
     dict = {}
     if len(list1) != len(list2):
         return None
+    if len(list1) != len(set(list1)):
+        return None
     for i in range(len(list1)):
         dict[list1[i]] = list2[i]
-    return dict     
+    return dict
