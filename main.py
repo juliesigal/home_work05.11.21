@@ -8,7 +8,7 @@ def isDictKeysAlpha(d):
   
 **********targil 2:
   
-ef popByValue1(dict, val):
+def popByValue1(dict, val):
     etgar = []
     for k,v in list(dict.items()):
         if v == val:
