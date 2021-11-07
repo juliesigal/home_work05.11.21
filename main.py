@@ -8,13 +8,14 @@ def isDictKeysAlpha(d):
   
 **********targil 2:
   
-def popByValue(dict):
+ef popByValue1(dict, val):
     etgar = []
     for k,v in list(dict.items()):
-        if type(dict[k]) == int:
+        if v == val:
             etgar.append(dict[k])
-            dict.pop(k)
-    return etgar  
+            dict.pop(k,v)
+    return etgar
+  
   
  **********targil 3:
   
